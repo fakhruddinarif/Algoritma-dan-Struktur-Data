@@ -20,5 +20,8 @@ public class FilmMain {
         System.out.println("=========================");
         Film film2 = new Film("ManiaQuantum", "Horror", "Dewasa", 2000, 40000);
         film2.tampilFilm();
+        System.out.println("=========================");
+        Film film3 = new Film("Waktu Maghrib", "Horror", "Dewasa", 1000, 35000);
+        film3.tampilFilm();;
     }
 }

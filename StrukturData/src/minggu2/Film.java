@@ -3,7 +3,6 @@ package minggu2;
 public class Film {
     String judul, genre, rate;
     int jumlahTiket, hargaTiket;
-
     Film() {
 
     }
@@ -26,7 +25,9 @@ public class Film {
         jumlahTiket += n;
     }
     void kurangiTiket(int n) {
-        jumlahTiket -= n;
+        if (jumlahTiket > 0) {
+            jumlahTiket -= n;
+        }
     }
     int totalRevenue() {
         return jumlahTiket * hargaTiket;

@@ -48,7 +48,7 @@ public class Snake {
         }
     }
     void detectColision(int x, int y) {
-
+        System.out.printf("GAME OVER - * Berada Diluar Area Permainan ( x = %d & y = %d )\n", x, y);
     }
 
     public static void main(String[] args) {
@@ -60,22 +60,22 @@ public class Snake {
         System.out.print("Lebar Area Permainan(Dimulai dari 1): ");
         int width = arif.nextInt();
 
-        System.out.print("X Awal Permainan(Dimulai dari 0): ");
+        System.out.print("X Awal Permainan(Dimulai dari 1): ");
         int x = arif.nextInt();
-        System.out.print("Y Awal Permainan(Dimulai dari 0): ");
+        System.out.print("Y Awal Permainan(Dimulai dari 1): ");
         int y = arif.nextInt();
 
         Snake snake = new Snake();
-        snake.height = height + 1;
-        snake.width = width + 1;
-        snake.x = x + 1;
-        snake.y = y + 1;
+        snake.height = height;
+        snake.width = width;
+        snake.x = x;
+        snake.y = y;
 
-        if (snake.x >= 0 && snake.y >= 0 && snake.x <= snake.width && snake.y <= snake.height) {
+        if (snake.x > 0 && snake.y > 0 && snake.x < snake.width && snake.y < snake.height) {
             snake.printPosition();
         }
         else {
-
+            snake.detectColision(snake.x, snake.y);
         }
 
         while(play) {
@@ -87,6 +87,7 @@ public class Snake {
             System.out.println("4. Move Left");
             System.out.print("Pilih Mode Pindah Posisi: ");
             int posisi = arif.nextInt();
+            System.out.println();
 
             if (posisi == 1) {
                 snake.moveUp();
@@ -108,7 +109,7 @@ public class Snake {
                 snake.printPosition();
             }
             else {
-                System.out.println("Game Over");
+                snake.detectColision(snake.x, snake.y);
                 break;
             }
         }

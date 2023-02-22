@@ -25,7 +25,7 @@ public class Buku {
     public static void main(String[] args) {
         Buku buku = new Buku();
         buku.nama = "Nanti Kita Cerita Hari Ini";
-        buku.pengarang = "Marchlla FP";
+        buku.pengarang = "Marchella FP";
         buku.penerbit = "POP Publishers";
         buku.hargaSatuan = 90000;
         buku.jumlah = 50;
