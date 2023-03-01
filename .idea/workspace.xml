@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd6b447a-1654-4ab5-ad40-dfc1e1b40d89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algoritma-dan-Struktur-Data.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayObjects/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayObjects/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayObjects/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayObjects/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayObjects/ArrayObjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayObjects/src/ArrayBalok/ArrayBalok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayObjects/src/ArrayBalok/Balok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayObjects/src/ArraySegitiga/Segitiga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayObjects/src/ArraySegitiga/sgArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayObjects/src/BangunRuang/ArrayObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayObjects/src/BangunRuang/PersegiPanjang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayObjects/src/BangunRuangTugas/Bola.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayObjects/src/BangunRuangTugas/Kerucut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayObjects/src/BangunRuangTugas/Limas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayObjects/src/BangunRuangTugas/MainBR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayObjects/src/DataMahasiswa/DataMahasiswa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayObjects/src/DataMahasiswa/MainDM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayObjects/src/Laporan.md" afterDir="false" />
-    </list>
+    <list default="true" id="bd6b447a-1654-4ab5-ad40-dfc1e1b40d89" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +56,7 @@
       <workItem from="1677638081604" duration="44000" />
       <workItem from="1677638169067" duration="6000" />
       <workItem from="1677638189769" duration="1411000" />
-      <workItem from="1677639631599" duration="8210000" />
+      <workItem from="1677639631599" duration="8623000" />
     </task>
     <servers />
   </component>

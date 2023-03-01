@@ -115,9 +115,7 @@ Pertanyaan:
 - Iya
 2. Jika jawaban soal no satu iya, berikan contohnya! Jika tidak, jelaskan!
 
-``` java
-PersegiPanjang[][] ppArray = new PersegiPanjang[2][3];
-```
+<img src="BangunRuang/bukti_nomor2.png">
 
 3. Jika diketahui terdapat class Persegi yang memiliki atribut sisi bertipe integer, maka kode dibawah ini akan memunculkan error saat dijalankan. Mengapa? 
 - Dikarenakan belum instansiasi objek
