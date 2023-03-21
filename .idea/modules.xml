@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Algoritma-dan-Struktur-Data.iml" filepath="$PROJECT_DIR$/Algoritma-dan-Struktur-Data.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArrayObjects/ArrayObjects.iml" filepath="$PROJECT_DIR$/ArrayObjects/ArrayObjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BruteForceDivideConquer/BruteForceDivideConquer.iml" filepath="$PROJECT_DIR$/BruteForceDivideConquer/BruteForceDivideConquer.iml" />
       <module fileurl="file://$PROJECT_DIR$/StrukturData/StrukturData.iml" filepath="$PROJECT_DIR$/StrukturData/StrukturData.iml" />
     </modules>
   </component>
