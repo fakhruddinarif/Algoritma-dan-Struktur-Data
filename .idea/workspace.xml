@@ -5,22 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd6b447a-1654-4ab5-ad40-dfc1e1b40d89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BruteForceDivideConquer/BruteForceDivideConquer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BruteForceDivideConquer/src/Laporan.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BruteForceDivideConquer/src/minggu5/Faktorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BruteForceDivideConquer/src/minggu5/MainFaktorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BruteForceDivideConquer/src/minggu5/MainMajority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BruteForceDivideConquer/src/minggu5/MainPangkat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BruteForceDivideConquer/src/minggu5/MainSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BruteForceDivideConquer/src/minggu5/Majority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BruteForceDivideConquer/src/minggu5/Pangkat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BruteForceDivideConquer/src/minggu5/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BruteForceDivideConquer/src/minggu5/assets/Output_Latihan1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BruteForceDivideConquer/src/minggu5/assets/Output_Latihan1_Pertanyaan1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BruteForceDivideConquer/src/minggu5/assets/Output_Latihan2._Pertanyaan5png.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BruteForceDivideConquer/src/minggu5/assets/Output_Latihan2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BruteForceDivideConquer/src/minggu5/assets/Output_Latihan3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestSearching/TestSearching.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestSearching/src/MergeSortTest/MergeSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestSearching/src/laporan.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestSearching/src/minggu7/Mahasiswa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestSearching/src/minggu7/MahasiswaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestSearching/src/minggu7/PencarianMhs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bubble-selection-insertion/bubble-selection-insertion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bubble-selection-insertion/src/laporan.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bubble-selection-insertion/src/minggu6/DaftarMahasiswaBerprestasi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bubble-selection-insertion/src/minggu6/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bubble-selection-insertion/src/minggu6/HotelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bubble-selection-insertion/src/minggu6/Mahasiswa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bubble-selection-insertion/src/minggu6/MainHotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bubble-selection-insertion/src/minggu6/MainMahasiswa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bubble-selection-insertion/src/minggu6/assets/Output_Latihan1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bubble-selection-insertion/src/minggu6/assets/Output_Latihan1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bubble-selection-insertion/src/minggu6/assets/Output_Latihan3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bubble-selection-insertion/src/minggu6/assets/Output_Pertanyaan_Latihan3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -55,7 +57,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java/Semester-2/Algoritma-dan-Struktur-Data&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/Kredit&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -89,7 +91,17 @@
       <workItem from="1679232909863" duration="3710000" />
       <workItem from="1679293944484" duration="2270000" />
       <workItem from="1679384101140" duration="137000" />
-      <workItem from="1679396353113" duration="1286000" />
+      <workItem from="1679396353113" duration="1848000" />
+      <workItem from="1679496469125" duration="212000" />
+      <workItem from="1679497069100" duration="1626000" />
+      <workItem from="1679534179563" duration="849000" />
+      <workItem from="1679538807698" duration="3591000" />
+      <workItem from="1679552825969" duration="3286000" />
+      <workItem from="1679556153699" duration="231000" />
+      <workItem from="1679916232728" duration="1930000" />
+      <workItem from="1679924536244" duration="137000" />
+      <workItem from="1679924694744" duration="51000" />
+      <workItem from="1679974992048" duration="2034000" />
     </task>
     <servers />
   </component>

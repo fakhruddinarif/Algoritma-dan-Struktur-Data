@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/ArrayObjects/ArrayObjects.iml" filepath="$PROJECT_DIR$/ArrayObjects/ArrayObjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/BruteForceDivideConquer/BruteForceDivideConquer.iml" filepath="$PROJECT_DIR$/BruteForceDivideConquer/BruteForceDivideConquer.iml" />
       <module fileurl="file://$PROJECT_DIR$/StrukturData/StrukturData.iml" filepath="$PROJECT_DIR$/StrukturData/StrukturData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestSearching/TestSearching.iml" filepath="$PROJECT_DIR$/TestSearching/TestSearching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bubble-selection-insertion/bubble-selection-insertion.iml" filepath="$PROJECT_DIR$/bubble-selection-insertion/bubble-selection-insertion.iml" />
     </modules>
   </component>
 </project>
