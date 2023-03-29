@@ -748,3 +748,67 @@ Output
 <img src="./assets/Output_Tugas1_2.png">
 
 <img src="./assets/Output_Tugas1_3.png">
+
+2. Modifikasi percobaan searching diatas dengan ketentuan berikut ini
+   - Pencarian dilakukan berdasarkan Nama Mahasiswa (gunakan Algoritma Sequential Search)
+
+Code
+
+PencarianMhs
+``` java
+void TampilPosisi(String x, int pos) {
+        if (pos != -1) {
+            System.out.println("Data: " + x + " Ditemukan Pada Indeks-" + pos);
+        }
+        else {
+            System.out.println("Data " + x + " Tidak Ditemukan");
+        }
+    }
+    void TampilData(String x, int pos) {
+        if (pos != -1) {
+            System.out.println("NIM\t: " + listMhs[pos].nim);
+            System.out.println("Nama\t: " + listMhs[pos].nama);
+            System.out.println("Umur\t: " + listMhs[pos].umur);
+            System.out.println("IPK\t: " + listMhs[pos].ipk);
+        }
+        else {
+            System.out.println("Data " + x + " Tidak Ditemukan");
+        }
+    }
+```
+MahasiswaMain
+``` java
+System.out.println("_____________________________________________");
+        System.out.println("Pencarian Data : ");
+        System.out.println("Masukkan Nama Mahasiswa yang dicari: ");
+        System.out.print("Nama : ");
+        String search = scs.nextLine();
+        System.out.println("Menggunakan Sequential Search");
+        int posisi = data.FindSeqSearch(search);
+        data.TampilPosisi(search, posisi);
+        data.TampilData(search, posisi);
+        System.out.println("==============================");
+```
+
+Output
+
+
+
+   - Buat aturan untuk mendeteksi hasil pencarian lebih dari 1 hasil dalam bentuk kalimat peringatan! Pastikan algoritma yang diterapkan sesuai dengan kasus yang diberikan!
+
+Code
+
+``` java
+System.out.println("_____________________________________________");
+        System.out.println("Pencarian Data : ");
+        System.out.println("Masukkan Nama Mahasiswa yang dicari: ");
+        System.out.print("Nama : ");
+        String search = scs.nextLine();
+        System.out.println("Menggunakan Sequential Search");
+        int posisi = data.FindSeqSearch(search);
+        data.TampilPosisi(search, posisi);
+        data.TampilData(search, posisi);
+        System.out.println("==============================");
+```
+
+Output

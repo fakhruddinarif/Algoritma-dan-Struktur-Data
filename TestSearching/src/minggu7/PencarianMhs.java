@@ -67,7 +67,7 @@ public class PencarianMhs {
 
     void TampilData(String x, int pos) {
         if (pos != -1) {
-            System.out.println("NIM\t: " + x);
+            System.out.println("NIM\t: " + listMhs[pos].nim);
             System.out.println("Nama\t: " + listMhs[pos].nama);
             System.out.println("Umur\t: " + listMhs[pos].umur);
             System.out.println("IPK\t: " + listMhs[pos].ipk);
