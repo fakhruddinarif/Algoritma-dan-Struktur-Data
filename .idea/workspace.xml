@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd6b447a-1654-4ab5-ad40-dfc1e1b40d89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TestSearching/src/assets/Output_Latihan3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestSearching/src/MergeSortTest/MergeSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestSearching/src/MergeSortTest/MergeSorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestSearching/src/MergeSortTest/SortMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestSearching/src/MergeSortTest/SortMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestSearching/src/laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/TestSearching/src/laporan.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestSearching/src/minggu7/MahasiswaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestSearching/src/minggu7/MahasiswaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestSearching/src/minggu7/PencarianMhs.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestSearching/src/minggu7/PencarianMhs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestSearching/MergeSortTest/MergeSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestSearching/MergeSortTest/MergeSorting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestSearching/MergeSortTest/SortMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestSearching/MergeSortTest/SortMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestSearching/laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestSearching/laporan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestSearching/minggu7/MahasiswaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestSearching/minggu7/MahasiswaMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestSearching/minggu7/PencarianMhs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestSearching/minggu7/PencarianMhs.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +95,8 @@
       <workItem from="1679974992048" duration="3803000" />
       <workItem from="1680040470979" duration="711000" />
       <workItem from="1680041287906" duration="106000" />
-      <workItem from="1680041412360" duration="5750000" />
+      <workItem from="1680041412360" duration="6217000" />
+      <workItem from="1680054690419" duration="9845000" />
     </task>
     <servers />
   </component>

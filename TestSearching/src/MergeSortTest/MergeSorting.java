@@ -1,7 +1,6 @@
 package MergeSortTest;
 
 public class MergeSorting {
-    int dataArr[] = new int[8];
    public void mergeSort(int[] data) {
        sort(data, 0, data.length - 1);
     }
@@ -47,30 +46,5 @@ public class MergeSorting {
            System.out.print(arr[i] + " ");
        }
         System.out.println();
-    }
-
-    int findBinarySearch(int search, int left, int right) {
-       int mid;
-       if (right >= left) {
-           mid = (left + right) / 2;
-           if (search == dataArr[mid]) {
-               return (mid);
-           }
-           else if (search < dataArr[mid]) {
-               return findBinarySearch(search, left, mid - 1);
-           }
-           else {
-               return findBinarySearch(search, mid + 1, right);
-           }
-       }
-       return -1;
-    }
-    void tampilData(int n, int pos) {
-        if (pos >= 0) {
-            System.out.println("Data " + n + " Ditemukan Pada Index " + pos);
-        }
-        else {
-            System.out.println("Data " + n + " Tidak Ditemukan");
-        }
     }
 }
