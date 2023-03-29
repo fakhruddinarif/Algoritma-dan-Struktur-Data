@@ -1,8 +1,9 @@
 package MergeSortTest;
 
 public class MergeSorting {
+    int dataArr[] = new int[8];
    public void mergeSort(int[] data) {
-       sort(data, 0, data.length);
+       sort(data, 0, data.length - 1);
     }
     private void merge(int data[], int left, int middle, int right) {
        int temp[] = new int[data.length];
@@ -34,7 +35,8 @@ public class MergeSorting {
     private void sort(int data[], int left, int right) {
        if (left < right) {
            int middle = (left + right) / 2;
-           sort(data, left, right);
+           sort(data, left, middle);
+           sort(data, middle + 1, right);
            merge(data, left, middle, right);
        }
     }
@@ -45,5 +47,30 @@ public class MergeSorting {
            System.out.print(arr[i] + " ");
        }
         System.out.println();
+    }
+
+    int findBinarySearch(int search, int left, int right) {
+       int mid;
+       if (right >= left) {
+           mid = (left + right) / 2;
+           if (search == dataArr[mid]) {
+               return (mid);
+           }
+           else if (search < dataArr[mid]) {
+               return findBinarySearch(search, left, mid - 1);
+           }
+           else {
+               return findBinarySearch(search, mid + 1, right);
+           }
+       }
+       return -1;
+    }
+    void tampilData(int n, int pos) {
+        if (pos >= 0) {
+            System.out.println("Data " + n + " Ditemukan Pada Index " + pos);
+        }
+        else {
+            System.out.println("Data " + n + " Tidak Ditemukan");
+        }
     }
 }

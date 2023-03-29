@@ -31,6 +31,23 @@ public class PencarianMhs {
         return posisi;
     }
 
+    int FindBinarySearch(int cari, int left, int right) {
+        int mid;
+        if (right >= left) {
+            mid = (left + right) / 2;
+            if (cari == listMhs[mid].nim) {
+                return (mid);
+            }
+            else if (listMhs[mid].nim > cari) {
+                return FindBinarySearch(cari, left, mid - 1);
+            }
+            else {
+                return FindBinarySearch(cari, mid + 1, right);
+            }
+        }
+        return -1;
+    }
+
     void TampilPosisi(int x, int pos) {
         if (pos != -1) {
             System.out.println("Data: " + x + " Ditemukan Pada Indeks-" + pos);

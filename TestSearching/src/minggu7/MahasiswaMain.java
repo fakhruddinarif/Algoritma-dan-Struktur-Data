@@ -30,13 +30,16 @@ public class MahasiswaMain {
         data.tampil();
 
         System.out.println("_____________________________________________");
-        System.out.println("_____________________________________________");
         System.out.println("Pencarian Data:");
         System.out.println("Masukkan NIM Mahasiswa Yang Dicari");
         System.out.print("NIM: ");
         int search = scd.nextInt();
         System.out.println("Menggunakan Sequential Search");
         int posisi = data.FindSeqSearch(search);
+
+        System.out.println("_____________________________________________");
+        System.out.println("Menggunakan Binary Search");
+        posisi = data.FindBinarySearch(search, 0, jumlah - 1);
 
         data.TampilPosisi(search, posisi);
         data.TampilData(search, posisi);
