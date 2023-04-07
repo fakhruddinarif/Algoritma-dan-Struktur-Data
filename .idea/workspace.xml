@@ -5,14 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd6b447a-1654-4ab5-ad40-dfc1e1b40d89" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Stack/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/Stack.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/src/Laporan.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/src/Pratikum1/Pakaian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/src/Pratikum1/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/src/Pratikum1/StackMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/src/Pratikum2/Postfix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/src/Pratikum2/PostfixMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/src/Tugas/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/src/Tugas/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/src/Tugas/Struk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/src/assets/Output_Pratikum1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/src/assets/Output_Pratikum2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/src/assets/Output_Tugas2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/src/assets/Output_Tugas2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/src/assets/Output_Tugas2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/src/assets/Output_Tugas2_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestSearching/src/assets/Output_Tugas2_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestSearching/src/assets/Output_Tugas2_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestSearching/src/assets/Output_Tugas2_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestSearching/src/laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/TestSearching/src/laporan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestSearching/src/minggu7/PencarianMhs.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestSearching/src/minggu7/PencarianMhs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestSearching/laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestSearching/laporan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestSearching/minggu7/PencarianMhs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestSearching/minggu7/PencarianMhs.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +61,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java/Kredit&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/Semester-2/exercise_uts&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -99,7 +110,21 @@
       <workItem from="1680041287906" duration="106000" />
       <workItem from="1680041412360" duration="6217000" />
       <workItem from="1680054690419" duration="10102000" />
-      <workItem from="1680089812078" duration="329000" />
+      <workItem from="1680089812078" duration="721000" />
+      <workItem from="1680145443977" duration="13000" />
+      <workItem from="1680183458418" duration="1519000" />
+      <workItem from="1680226512222" duration="45000" />
+      <workItem from="1680227773057" duration="2150000" />
+      <workItem from="1680265419952" duration="648000" />
+      <workItem from="1680351058767" duration="5032000" />
+      <workItem from="1680508701518" duration="17000" />
+      <workItem from="1680615070564" duration="12000" />
+      <workItem from="1680653894797" duration="8646000" />
+      <workItem from="1680679806963" duration="1701000" />
+      <workItem from="1680698906634" duration="235000" />
+      <workItem from="1680747763926" duration="1515000" />
+      <workItem from="1680749670487" duration="744000" />
+      <workItem from="1680833680628" duration="3233000" />
     </task>
     <servers />
   </component>
