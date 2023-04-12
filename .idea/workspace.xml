@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd6b447a-1654-4ab5-ad40-dfc1e1b40d89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/UTS/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UTS/src/Konversi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UTS/src/Mahasiswa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UTS/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayObjects/out/production/ArrayObjects/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayObjects/out/production/ArrayObjects/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayObjects/src/Laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayObjects/src/Laporan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BruteForceDivideConquer/src/Laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/BruteForceDivideConquer/src/Laporan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/src/Laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/src/Laporan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestSearching/src/laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/TestSearching/src/laporan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bubble-selection-insertion/src/laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/bubble-selection-insertion/src/laporan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestSearching/laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestSearching/laporan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTS/src/Konversi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTS/src/Mahasiswa.java" beforeDir="false" afterPath="$PROJECT_DIR$/UTS/src/Mahasiswa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UTS/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/UTS/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTS/Konversi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTS/Mahasiswa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UTS/Mahasiswa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTS/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UTS/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +115,7 @@
       <workItem from="1680833680628" duration="3687000" />
       <workItem from="1681135040337" duration="91000" />
       <workItem from="1681222896336" duration="2882000" />
-      <workItem from="1681264977520" duration="1557000" />
+      <workItem from="1681264977520" duration="5712000" />
     </task>
     <servers />
   </component>
