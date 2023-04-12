@@ -410,7 +410,7 @@ public class MainDM {
         for (int i = 0; i < dm.length; i++) {
             int a = i + 1;
             dm[i] = new DataMahasiswa();
-            System.out.println("Masukkan Data Mahasiswa Ke-" + a);
+            System.out.println("Masukkan Mahasiswa Mahasiswa Ke-" + a);
             System.out.print("Masukkan Nama         : ");
             dm[i].nama = scs.nextLine();
             System.out.print("Masukkan NIM          : ");
@@ -424,7 +424,7 @@ public class MainDM {
         System.out.println();
         for (int i = 0; i < dm.length; i++) {
             int a = i + 1;
-            System.out.println("Data Mahasiswa Ke-" + a);
+            System.out.println("Mahasiswa Mahasiswa Ke-" + a);
             System.out.println("Nama         : " + dm[i].nama);
             System.out.println("NIM          : " + dm[i].nim);
             System.out.println("Jenis Kelamin: " + dm[i].jenisKelamin);
@@ -437,38 +437,38 @@ public class MainDM {
 
 Output:
 ``` java
-Masukkan Data Mahasiswa Ke-1
+Masukkan Mahasiswa Mahasiswa Ke-1
 Masukkan Nama         : Muhammad Fakhruddin Arif
 Masukkan NIM          : 2241720030
 Masukkan Jenis Kelamin: L
 Masukkan IPK          : 3.81
 
-Masukkan Data Mahasiswa Ke-2
+Masukkan Mahasiswa Mahasiswa Ke-2
 Masukkan Nama         : Nadila Amalia Pribadi
 Masukkan NIM          : 2241720130
 Masukkan Jenis Kelamin: P
 Masukkan IPK          : 3.89
 
-Masukkan Data Mahasiswa Ke-3
+Masukkan Mahasiswa Mahasiswa Ke-3
 Masukkan Nama         : Doni Wahyu Kurniawan
 Masukkan NIM          : 2241720102
 Masukkan Jenis Kelamin: L
 Masukkan IPK          : 3.94
 
 
-Data Mahasiswa Ke-1
+Mahasiswa Mahasiswa Ke-1
 Nama         : Muhammad Fakhruddin Arif
 NIM          : 2241720030
 Jenis Kelamin: L
 Nilai IPK    : 3.81
 
-Data Mahasiswa Ke-2
+Mahasiswa Mahasiswa Ke-2
 Nama         : Nadila Amalia Pribadi
 NIM          : 2241720130
 Jenis Kelamin: P
 Nilai IPK    : 3.89
 
-Data Mahasiswa Ke-3
+Mahasiswa Mahasiswa Ke-3
 Nama         : Doni Wahyu Kurniawan
 NIM          : 2241720102
 Jenis Kelamin: L

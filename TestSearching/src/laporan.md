@@ -49,7 +49,7 @@ public class PencarianMhs {
             index++;
         }
         else {
-            System.out.println("Data Sudah Penuh");
+            System.out.println("Mahasiswa Sudah Penuh");
         }
     }
     void tampil() {
@@ -72,10 +72,10 @@ public class PencarianMhs {
 
     void TampilPosisi(int x, int pos) {
         if (pos != -1) {
-            System.out.println("Data: " + x + " Ditemukan Pada Indeks-" + pos);
+            System.out.println("Mahasiswa: " + x + " Ditemukan Pada Indeks-" + pos);
         }
         else {
-            System.out.println("Data " + x + " Tidak Ditemukan");
+            System.out.println("Mahasiswa " + x + " Tidak Ditemukan");
         }
     }
 
@@ -87,7 +87,7 @@ public class PencarianMhs {
             System.out.println("IPK\t: " + listMhs[pos].ipk);
         }
         else {
-            System.out.println("Data " + x + " Tidak Ditemukan");
+            System.out.println("Mahasiswa " + x + " Tidak Ditemukan");
         }
     }
 }
@@ -107,7 +107,7 @@ public class MahasiswaMain {
         PencarianMhs data = new PencarianMhs();
         int jumlah = 5;
         System.out.println("=============================================");
-        System.out.println("Masukkan Data Mahasiswa Secara urut Dari NIM Terkecil");
+        System.out.println("Masukkan Mahasiswa Mahasiswa Secara urut Dari NIM Terkecil");
         for (int i = 0; i < jumlah; i++) {
             System.out.println("=============================================");
             System.out.print("NIM\t: ");
@@ -123,12 +123,12 @@ public class MahasiswaMain {
             data.tambah(mhs);
         }
         System.out.println("=============================================");
-        System.out.println("Data Keselurahan Mahasiswa");
+        System.out.println("Mahasiswa Keselurahan Mahasiswa");
         data.tampil();
 
         System.out.println("_____________________________________________");
         System.out.println("_____________________________________________");
-        System.out.println("Pencarian Data:");
+        System.out.println("Pencarian Mahasiswa:");
         System.out.println("Masukkan NIM Mahasiswa Yang Dicari");
         System.out.print("NIM: ");
         int search = scd.nextInt();
@@ -153,7 +153,7 @@ Pertanyaan
     - Method TampilPosisi() untuk menampilkan index pada sebuah data, Jika method TampilData() untuk menampilkan semua data pada index yang telah ditemukan
 2. Jelaskan fungsi break pada kode program
     - Fungsi break yaitu untuk memberhentikan paksa sebuah looping dan pemilihan yang dilakukan
-3. Jika Data Nim yang dimasukkan tidak terurut dari kecil ke besar. Apakah program masih dapat berjalan? Apakah hasil yang dikeluarkan benar? Mengapa demikian!
+3. Jika Mahasiswa Nim yang dimasukkan tidak terurut dari kecil ke besar. Apakah program masih dapat berjalan? Apakah hasil yang dikeluarkan benar? Mengapa demikian!
     - Masih dapat berjalan dan hasil yang dikeluarkan benar dikarenakan kode program yang dilakukan yaitu mengecek semua data hingga bertemu dengan data yang sesuai dengan inputan
 
 ### 6.3.Searching / Pencarian Menggunakan Binary Search
@@ -174,7 +174,7 @@ public class PencarianMhs {
             index++;
         }
         else {
-            System.out.println("Data Sudah Penuh");
+            System.out.println("Mahasiswa Sudah Penuh");
         }
     }
     void tampil() {
@@ -214,10 +214,10 @@ public class PencarianMhs {
 
     void TampilPosisi(int x, int pos) {
         if (pos != -1) {
-            System.out.println("Data: " + x + " Ditemukan Pada Indeks-" + pos);
+            System.out.println("Mahasiswa: " + x + " Ditemukan Pada Indeks-" + pos);
         }
         else {
-            System.out.println("Data " + x + " Tidak Ditemukan");
+            System.out.println("Mahasiswa " + x + " Tidak Ditemukan");
         }
     }
 
@@ -229,7 +229,7 @@ public class PencarianMhs {
             System.out.println("IPK\t: " + listMhs[pos].ipk);
         }
         else {
-            System.out.println("Data " + x + " Tidak Ditemukan");
+            System.out.println("Mahasiswa " + x + " Tidak Ditemukan");
         }
     }
 }
@@ -248,7 +248,7 @@ public class MahasiswaMain {
         PencarianMhs data = new PencarianMhs();
         int jumlah = 5;
         System.out.println("=============================================");
-        System.out.println("Masukkan Data Mahasiswa Secara urut Dari NIM Terkecil");
+        System.out.println("Masukkan Mahasiswa Mahasiswa Secara urut Dari NIM Terkecil");
         for (int i = 0; i < jumlah; i++) {
             System.out.println("=============================================");
             System.out.print("NIM\t: ");
@@ -264,11 +264,11 @@ public class MahasiswaMain {
             data.tambah(mhs);
         }
         System.out.println("=============================================");
-        System.out.println("Data Keselurahan Mahasiswa");
+        System.out.println("Mahasiswa Keselurahan Mahasiswa");
         data.tampil();
 
         System.out.println("_____________________________________________");
-        System.out.println("Pencarian Data:");
+        System.out.println("Pencarian Mahasiswa:");
         System.out.println("Masukkan NIM Mahasiswa Yang Dicari");
         System.out.print("NIM: ");
         int search = scd.nextInt();
@@ -349,7 +349,7 @@ public class PencarianMhs {
             index++;
         }
         else {
-            System.out.println("Data Sudah Penuh");
+            System.out.println("Mahasiswa Sudah Penuh");
         }
     }
     void tampil() {
@@ -389,10 +389,10 @@ public class PencarianMhs {
 
     void TampilPosisi(int x, int pos) {
         if (pos != -1) {
-            System.out.println("Data: " + x + " Ditemukan Pada Indeks-" + pos);
+            System.out.println("Mahasiswa: " + x + " Ditemukan Pada Indeks-" + pos);
         }
         else {
-            System.out.println("Data " + x + " Tidak Ditemukan");
+            System.out.println("Mahasiswa " + x + " Tidak Ditemukan");
         }
     }
 
@@ -404,7 +404,7 @@ public class PencarianMhs {
             System.out.println("IPK\t: " + listMhs[pos].ipk);
         }
         else {
-            System.out.println("Data " + x + " Tidak Ditemukan");
+            System.out.println("Mahasiswa " + x + " Tidak Ditemukan");
         }
     }
 }
@@ -424,7 +424,7 @@ public class MahasiswaMain {
         int jumlah = scd.nextInt();
         PencarianMhs data = new PencarianMhs(jumlah);
         System.out.println("=============================================");
-        System.out.println("Masukkan Data Mahasiswa Secara urut Dari NIM Terkecil");
+        System.out.println("Masukkan Mahasiswa Mahasiswa Secara urut Dari NIM Terkecil");
         for (int i = 0; i < jumlah; i++) {
             System.out.println("=============================================");
             System.out.print("NIM\t: ");
@@ -440,11 +440,11 @@ public class MahasiswaMain {
             data.tambah(mhs);
         }
         System.out.println("=============================================");
-        System.out.println("Data Keselurahan Mahasiswa");
+        System.out.println("Mahasiswa Keselurahan Mahasiswa");
         data.tampil();
 
         System.out.println("_____________________________________________");
-        System.out.println("Pencarian Data:");
+        System.out.println("Pencarian Mahasiswa:");
         System.out.println("Masukkan NIM Mahasiswa Yang Dicari");
         System.out.print("NIM: ");
         int search = scd.nextInt();
@@ -534,7 +534,7 @@ public class SortMain {
         int data[] = {10, 40, 30, 50, 70, 20, 100, 90};
         System.out.println("Sorting Dengan Merge Sort");
         MergeSorting mSort = new MergeSorting();
-        System.out.println("Data Awal");
+        System.out.println("Mahasiswa Awal");
         mSort.printArray(data);
         mSort.mergeSort(data);
         System.out.println("Setelah Diurutkan");
@@ -571,7 +571,7 @@ public class PencarianMhs {
             index++;
         }
         else {
-            System.out.println("Data Sudah Penuh");
+            System.out.println("Mahasiswa Sudah Penuh");
         }
     }
     void tampil() {
@@ -611,10 +611,10 @@ public class PencarianMhs {
 
     void TampilPosisi(int x, int pos) {
         if (pos != -1) {
-            System.out.println("Data: " + x + " Ditemukan Pada Indeks-" + pos);
+            System.out.println("Mahasiswa: " + x + " Ditemukan Pada Indeks-" + pos);
         }
         else {
-            System.out.println("Data " + x + " Tidak Ditemukan");
+            System.out.println("Mahasiswa " + x + " Tidak Ditemukan");
         }
     }
 
@@ -626,7 +626,7 @@ public class PencarianMhs {
             System.out.println("IPK\t: " + listMhs[pos].ipk);
         }
         else {
-            System.out.println("Data " + x + " Tidak Ditemukan");
+            System.out.println("Mahasiswa " + x + " Tidak Ditemukan");
         }
     }
 
@@ -700,7 +700,7 @@ public class MahasiswaMain {
         int jumlah = scd.nextInt();
         PencarianMhs data = new PencarianMhs(jumlah);
         System.out.println("=============================================");
-        System.out.println("Masukkan Data Mahasiswa Secara urut Dari NIM Terkecil");
+        System.out.println("Masukkan Mahasiswa Mahasiswa Secara urut Dari NIM Terkecil");
         for (int i = 0; i < jumlah; i++) {
             System.out.println("=============================================");
             System.out.print("NIM\t: ");
@@ -716,11 +716,11 @@ public class MahasiswaMain {
             data.tambah(mhs);
         }
         System.out.println("=============================================");
-        System.out.println("Data Keselurahan Mahasiswa");
+        System.out.println("Mahasiswa Keselurahan Mahasiswa");
         data.tampil();
 
         System.out.println("_____________________________________________");
-        System.out.println("Pencarian Data:");
+        System.out.println("Pencarian Mahasiswa:");
         System.out.println("Masukkan NIM Mahasiswa Yang Dicari");
         System.out.print("NIM: ");
         int search = scd.nextInt();
@@ -758,10 +758,10 @@ PencarianMhs
 ``` java
 void TampilPosisi(String x, int pos) {
         if (pos != -1) {
-            System.out.println("Data: " + x + " Ditemukan Pada Indeks-" + pos);
+            System.out.println("Mahasiswa: " + x + " Ditemukan Pada Indeks-" + pos);
         }
         else {
-            System.out.println("Data " + x + " Tidak Ditemukan");
+            System.out.println("Mahasiswa " + x + " Tidak Ditemukan");
         }
     }
     void TampilData(String x, int pos) {
@@ -772,14 +772,14 @@ void TampilPosisi(String x, int pos) {
             System.out.println("IPK\t: " + listMhs[pos].ipk);
         }
         else {
-            System.out.println("Data " + x + " Tidak Ditemukan");
+            System.out.println("Mahasiswa " + x + " Tidak Ditemukan");
         }
     }
 ```
 MahasiswaMain
 ``` java
 System.out.println("_____________________________________________");
-        System.out.println("Pencarian Data : ");
+        System.out.println("Pencarian Mahasiswa : ");
         System.out.println("Masukkan Nama Mahasiswa yang dicari: ");
         System.out.print("Nama : ");
         String search = scs.nextLine();
@@ -802,7 +802,7 @@ Code
 
 ``` java
 System.out.println("_____________________________________________");
-        System.out.println("Pencarian Data : ");
+        System.out.println("Pencarian Mahasiswa : ");
         System.out.println("Masukkan Nama Mahasiswa yang dicari: ");
         System.out.print("Nama : ");
         String search = scs.nextLine();

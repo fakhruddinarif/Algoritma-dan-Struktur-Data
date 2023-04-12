@@ -792,7 +792,9 @@ System.out.println("_____________________________________________");
 
 Output
 
+<img src="./assets/Output_Tugas2_1.png">
 
+<img src="./assets/Output_Tugas2_2.png">
 
    - Buat aturan untuk mendeteksi hasil pencarian lebih dari 1 hasil dalam bentuk kalimat peringatan! Pastikan algoritma yang diterapkan sesuai dengan kasus yang diberikan!
 
@@ -812,3 +814,5 @@ System.out.println("_____________________________________________");
 ```
 
 Output
+
+<img src="./assets/Output_Tugas2_3.png">

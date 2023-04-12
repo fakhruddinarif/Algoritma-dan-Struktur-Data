@@ -1,4 +1,4 @@
-<img src="https://github.com/fakhruddinarif/Algoritma-dan-Struktur-Data/tree/main/StrukturData/ArrayObjects/assets/code_Percobaan1" height="400" width="600" >
+<img src="https://github.com/fakhruddinarif/Algoritma-dan-Struktur-Mahasiswa/tree/main/StrukturData/ArrayObjects/assets/code_Percobaan1" height="400" width="600" >
 
 ## Pertanyaan Percobaan 1
 

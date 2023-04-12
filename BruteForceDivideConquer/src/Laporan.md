@@ -50,7 +50,7 @@ public class MainFaktorial {
         Faktorial fk[] = new Faktorial[elemen];
         for (int i = 0; i < elemen; i++) {
             fk[i] = new Faktorial();
-            System.out.print("Masukkan Nilai Data Ke-" + (i + 1) + ": ");
+            System.out.print("Masukkan Nilai Mahasiswa Ke-" + (i + 1) + ": ");
             fk[i].nilai = sc.nextInt();
         }
 

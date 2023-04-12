@@ -6,7 +6,7 @@ Nama  : Muhammad Fakhruddin Arif
 Kelas : TI-1D
 
 ## Latihan
-### 5.2 Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Bubble Sort
+### 5.2 Mengurutkan Mahasiswa Mahasiswa Berdasarkan IPK Menggunakan Bubble Sort
 
 Code:
 
@@ -48,7 +48,7 @@ public class DaftarMahasiswaBerprestasi {
             idx++;
         }
         else {
-            System.out.println("Data Sudah Penuh");
+            System.out.println("Mahasiswa Sudah Penuh");
         }
     }
 
@@ -91,10 +91,10 @@ public class MainMahasiswa {
         list.tambah(mhs4);
         list.tambah(mhs5);
 
-        System.out.println("Data Mahasiswa Sebelum Starting: ");
+        System.out.println("Mahasiswa Mahasiswa Sebelum Starting: ");
         list.tampil();
 
-        System.out.println("Data Mahasiswa Setelah Sorting Desc Berdasarkan IPK");
+        System.out.println("Mahasiswa Mahasiswa Setelah Sorting Desc Berdasarkan IPK");
         list.bubbleSort();
         list.tampil();
     }
@@ -127,7 +127,7 @@ Pertanyaan
    - C. Karena digunakan untuk mengurangi setiap langkah dari setiap tahapan yang dilakukan
    - D. Perulangan ada 49 pada perulangan i dan ada 1225 langkah bubbleSort
 
-### 5.3 Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Selection Sort
+### 5.3 Mengurutkan Mahasiswa Mahasiswa Berdasarkan IPK Menggunakan Selection Sort
 
 Code:
 
@@ -150,7 +150,7 @@ void selectionSort() {
 
 MainMahasiswa
 ``` java
-System.out.println("Data Mahasiswa Setelah Sorting Asc Berdasarkan IPK");
+System.out.println("Mahasiswa Mahasiswa Setelah Sorting Asc Berdasarkan IPK");
 list.selectionSort();
 list.tampil();
 ```
@@ -164,7 +164,7 @@ Pertanyaan
    Untuk apakah proses tersebut, jelaskan!
    - Untuk proses pencarian nilai minimal didalam Array Of Objects
 
-### 5.4 Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Insertion Sort
+### 5.4 Mengurutkan Mahasiswa Mahasiswa Berdasarkan IPK Menggunakan Insertion Sort
 
 Code:
 
@@ -184,7 +184,7 @@ void insertionSort() {
 ```
 MainMahasiswa
 ``` java
-System.out.println("Data Mahasiswa Setelah Sorting Asc Berdasarkan IPK");
+System.out.println("Mahasiswa Mahasiswa Setelah Sorting Asc Berdasarkan IPK");
 list.insertionSort();
 list.tampil();
 ```
@@ -256,7 +256,7 @@ public class HotelService {
             index++;
         }
         else {
-            System.out.println("Data Sudah Penuh");
+            System.out.println("Mahasiswa Sudah Penuh");
         }
     }
 
@@ -319,7 +319,7 @@ public class MainHotel {
         hs.tambah(hotel4);
         hs.tambah(hotel5);
 
-        System.out.println("Data Hotel Sekitar Jawa Timur");
+        System.out.println("Mahasiswa Hotel Sekitar Jawa Timur");
         hs.tampilAll();
 
         System.out.println();
