@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd6b447a-1654-4ab5-ad40-dfc1e1b40d89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Jobsheet8/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet8/Jobsheet8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/Laporan.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/Praktikum1/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/Praktikum1/QueueMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/Praktikum2/Penumpang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/Praktikum2/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/Praktikum2/QueueMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/Tugas/Mahasiswa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/Tugas/MahasiswaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/Tugas/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/assets/Output_Latihan_Pratikum1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/assets/Output_Latihan_Pratikum2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stack/Laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stack/Laporan.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +122,7 @@
       <workItem from="1683013825769" duration="6551000" />
       <workItem from="1683028408339" duration="2954000" />
       <workItem from="1683066275986" duration="2308000" />
-      <workItem from="1683077159355" duration="3881000" />
+      <workItem from="1683077159355" duration="4586000" />
     </task>
     <servers />
   </component>

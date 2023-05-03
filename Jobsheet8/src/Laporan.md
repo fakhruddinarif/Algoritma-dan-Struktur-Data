@@ -770,8 +770,11 @@ public class MahasiswaMain {
                     int inputPosisi = sc.nextInt();
                     antrian.printMahasiswa(inputPosisi);
                     sc.nextLine();
+                case 7:
+                    antrian.print();
+                    break;
             }
-        } while (pilih > 0 && pilih < 7);
+        } while (pilih > 0 && pilih < 8);
     }
     static void menu() {
         System.out.println("1. Antrian Baru");
@@ -780,6 +783,7 @@ public class MahasiswaMain {
         System.out.println("4. Cek Antrian Belakang");
         System.out.println("5. Cari Antrian Berdasakan NIM");
         System.out.println("6. Menampilkan Data Berdasarkan Posisi");
+        System.out.println("7. Tampil Semua Antrian");
         System.out.println("------------------------------------------------");
     }
 }
