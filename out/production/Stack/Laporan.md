@@ -71,7 +71,7 @@ public class Stack {
         if (!IsEmpty()) {
             Pakaian x = data[top];
             top--;
-            System.out.println("Data Yang Keluar: " + x.jenis + " " + x.warna + " " + x.merk + " " + x.ukuran + " " + x.harga);
+            System.out.println("Mahasiswa Yang Keluar: " + x.jenis + " " + x.warna + " " + x.merk + " " + x.ukuran + " " + x.harga);
         }
         else {
             System.out.println("Stack Masih Kosong");
@@ -125,7 +125,7 @@ public class StackMain {
             double harga = sc.nextDouble();
 
             Pakaian pakaian = new Pakaian(jenis, warna, merk, ukuran, harga);
-            System.out.print("Apakah Anda Akan Menambahkan Data Baru Ke Stack (y/n)? ");
+            System.out.print("Apakah Anda Akan Menambahkan Mahasiswa Baru Ke Stack (y/n)? ");
             pilih = sc.next().charAt(0);
             sc.nextLine();
             stk.push(pakaian);
@@ -148,11 +148,11 @@ Pertanyaan
 
 <img src="./assets/Output_Pratikum1_Pertanyaan1.png">
 
-2. Perhatikan class StackMain, pada saat memanggil fungsi push, parameter yang dikirimkan adalah p. Data apa yang tersimpan pada variabel p tersebut? 
+2. Perhatikan class StackMain, pada saat memanggil fungsi push, parameter yang dikirimkan adalah p. Mahasiswa apa yang tersimpan pada variabel p tersebut? 
 ``` java
 stk.push(pakaian);
 ```
-   - Data yang tersimpan pada variabel tersebut yaitu jenis, warna, merk, ukuran, dan harga pada sebuah pakaian.
+   - Mahasiswa yang tersimpan pada variabel tersebut yaitu jenis, warna, merk, ukuran, dan harga pada sebuah pakaian.
 3. Apakah fungsi penggunaan do-while yang terdapat pada class StackMain? 
    - Untuk mengulangi atau melooping kode program yang terdapat didalam do dan akan tetap melooping hingga kondisi pada while bersifat false
 4. Modifikasi kode program pada class StackMain sehingga pengguna dapat memilih operasi-operasi pada stack (push, pop, peek, atau print) melalui pilihan menu program dengan memanfaatkan kondisi IF-ELSE atau SWITCH-CASE! 
@@ -205,7 +205,7 @@ public class StackMain {
             else {
                 System.out.println("Inputan Yang Anda Masukkan Tidak Sesuai");
             }
-            System.out.print("Apakah Anda Akan Mengolah Data Ke Stack (y/n)? ");
+            System.out.print("Apakah Anda Akan Mengolah Mahasiswa Ke Stack (y/n)? ");
             pilih = scs.next().charAt(0);
         } while (pilih == 'y');
     }
@@ -346,6 +346,7 @@ c = Q.charAt(i);
 <img src="./assets/Output_Pratikum2_Pertanyaan3.png">
 
 4. Pada soal nomor 3, mengapa tanda kurung tidak ditampilkan pada hasil konversi? Jelaskan! 
+   - Dikarenakan pada saat c == ')' terjadi perulangan pop() dengan memindahkan data ke variabel P hingga variabel c == '(' setelah itu terjadi pop() kembali tetapi data tidak dimasukkan ke variabel P
 
 ## Tugas
 1. Perhatikan dan gunakan kembali kode program pada Praktikum 1. Tambahkan method getMin pada class Stack yang digunakan untuk mencari dan menampilkan data pakaian dengan harga terendah dari semua data pakaian yang tersimpan di dalam stack!
@@ -419,7 +420,7 @@ public class StackMain {
             else {
                 System.out.println("Inputan Yang Anda Masukkan Tidak Sesuai");
             }
-            System.out.print("Apakah Anda Akan Mengolah Data Ke Stack (y/n)? ");
+            System.out.print("Apakah Anda Akan Mengolah Mahasiswa Ke Stack (y/n)? ");
             pilih = scs.next().charAt(0);
             scs.nextLine();
         } while (pilih == 'y');
@@ -560,8 +561,8 @@ public class Main {
             } while (!list.IsFull());
 
             while (runMenu) {
-                System.out.println("Pilihan Menu Data Struk");
-                System.out.println("1. Lihat Data Semua Struk");
+                System.out.println("Pilihan Menu Mahasiswa Struk");
+                System.out.println("1. Lihat Mahasiswa Semua Struk");
                 System.out.println("2. Tukar Struk");
                 System.out.print("Pilih Menu: ");
                 int selectMenu = scd.nextInt();
@@ -588,3 +589,13 @@ public class Main {
 }
 ```
 Output
+
+<img src="./assets/Output_Tugas2_1.png">
+
+<img src="./assets/Output_Tugas2_2.png">
+
+<img src="./assets/Output_Tugas2_3.png">
+
+<img src="./assets/Output_Tugas2_4.png">
+
+<img src="./assets/Output_Tugas2_5.png">

@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd6b447a-1654-4ab5-ad40-dfc1e1b40d89" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Jobsheet8/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet8/Jobsheet8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/Laporan.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/Praktikum1/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/Praktikum1/QueueMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/Praktikum2/Penumpang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/Praktikum2/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/Praktikum2/QueueMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/Tugas/Mahasiswa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/Tugas/MahasiswaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/Tugas/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/assets/Output_Latihan_Pratikum1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet8/src/assets/Output_Latihan_Pratikum2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTS/src/Konversi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTS/src/Mahasiswa.java" beforeDir="false" afterPath="$PROJECT_DIR$/UTS/src/Mahasiswa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UTS/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/UTS/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTS/Konversi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTS/Mahasiswa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UTS/Mahasiswa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTS/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UTS/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stack/Laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stack/Laporan.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +37,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Stack/src/Pratikum1/StackMain.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -39,26 +51,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Java/Semester-2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/Semester-2/Modul3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -115,7 +127,17 @@
       <workItem from="1680833680628" duration="3687000" />
       <workItem from="1681135040337" duration="91000" />
       <workItem from="1681222896336" duration="2882000" />
-      <workItem from="1681264977520" duration="5712000" />
+      <workItem from="1681264977520" duration="7492000" />
+      <workItem from="1681280134485" duration="1560000" />
+      <workItem from="1681395964841" duration="83000" />
+      <workItem from="1682341358422" duration="2328000" />
+      <workItem from="1682382136639" duration="773000" />
+      <workItem from="1682384323678" duration="834000" />
+      <workItem from="1683013652725" duration="68000" />
+      <workItem from="1683013825769" duration="6551000" />
+      <workItem from="1683028408339" duration="2954000" />
+      <workItem from="1683066275986" duration="2308000" />
+      <workItem from="1683077159355" duration="3881000" />
     </task>
     <servers />
   </component>
