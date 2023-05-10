@@ -1,4 +1,4 @@
-# LAPORAN PRATIKUM 7
+# LAPORAN PRATIKUM 8
 NIM   : 2241720030
 
 Nama  : Muhammad Fakhruddin Arif

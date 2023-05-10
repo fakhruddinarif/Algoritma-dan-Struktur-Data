@@ -5,7 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd6b447a-1654-4ab5-ad40-dfc1e1b40d89" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/Jobsheet9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/Laporan.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/TugasNomor2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/TugasNomor2/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/TugasNomor2/SingleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/TugasNomor3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/TugasNomor3/MataKuliah.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/TugasNomor3/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/TugasNomor3/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/assets/Output_Praktikum1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/assets/Output_Praktikum2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/assets/Output_Tugas1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/assets/Output_Tugas2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/assets/Output_Tugas3_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/assets/Output_Tugas3_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/assets/Output_Tugas3_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/assets/Output_Tugas3_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/assets/Output_Tugas3_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/assets/Output_Tugas3_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/assets/Output_Tugas3_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/assets/Tugas2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/assets/Tugas3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/minggu11/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/minggu11/SLLMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobsheet9/src/minggu11/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jobsheet8/src/Laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/Jobsheet8/src/Laporan.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +150,14 @@
       <workItem from="1683013825769" duration="6551000" />
       <workItem from="1683028408339" duration="2954000" />
       <workItem from="1683066275986" duration="2308000" />
-      <workItem from="1683077159355" duration="4586000" />
+      <workItem from="1683077159355" duration="7358000" />
+      <workItem from="1683675772918" duration="2593000" />
+      <workItem from="1683689480242" duration="4068000" />
+      <workItem from="1683694297431" duration="3000" />
+      <workItem from="1683709781507" duration="4411000" />
+      <workItem from="1683714549899" duration="92000" />
+      <workItem from="1683719135006" duration="611000" />
+      <workItem from="1683720735536" duration="299000" />
     </task>
     <servers />
   </component>
