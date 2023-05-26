@@ -5,26 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd6b447a-1654-4ab5-ad40-dfc1e1b40d89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Jobsheet10/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet10/Jobsheet10.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet10/src/DoubleLinkedList/DoubleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet10/src/DoubleLinkedList/DoubleLinkedListMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet10/src/DoubleLinkedList/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet10/src/Laporan.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet10/src/Tugas1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet10/src/Tugas1/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet10/src/Tugas1/Pasien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet10/src/Tugas1/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet10/src/Tugas2/Film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet10/src/Tugas2/FilmList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet10/src/Tugas2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet10/src/Tugas2/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet10/src/assets/Output_Praktikum1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet10/src/assets/Output_Praktikum2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet10/src/assets/Output_Praktikum3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobsheet10/src/assets/Output_Tugas2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/Tree.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/src/Laporan.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Jobsheet10/Laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jobsheet10/Laporan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Jobsheet10/Tugas2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jobsheet10/Tugas2/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +62,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="BinaryTreeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Praktikum1.BinaryTreeMain" />
+      <module name="Tree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Praktikum1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BinaryTreeMain" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -155,7 +162,13 @@
       <workItem from="1684302172678" duration="391000" />
       <workItem from="1684304282579" duration="2137000" />
       <workItem from="1684311207692" duration="1947000" />
-      <workItem from="1684313180443" duration="11538000" />
+      <workItem from="1684313180443" duration="11743000" />
+      <workItem from="1684327411075" duration="125000" />
+      <workItem from="1684328655162" duration="167000" />
+      <workItem from="1684993508027" duration="765000" />
+      <workItem from="1684994341939" duration="37000" />
+      <workItem from="1685019844915" duration="183000" />
+      <workItem from="1685062883537" duration="1155000" />
     </task>
     <servers />
   </component>

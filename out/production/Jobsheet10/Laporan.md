@@ -772,4 +772,338 @@ Output
 
 2. Buatlah program daftar film yang terdiri dari id, judul dan rating menggunakan double linked lists, bentuk program memiliki fitur pencarian melalui ID Film dan pengurutan Rating secara descending. Class Film wajib diimplementasikan
 
+Code:
+
+Film
+``` java
+package Tugas2;
+
+public class Film {
+    int id;
+    String judul;
+    double rating;
+
+    Film(int id, String judul, double rating) {
+        this.id = id;
+        this.judul = judul;
+        this.rating = rating;
+    }
+}
+```
+Node
+``` java
+package Tugas2;
+
+import Tugas1.Pasien;
+
+public class Node {
+    Film data;
+    Node prev, next;
+
+    Node(Node prev, Film data, Node next) {
+        this.prev = prev;
+        this.data = data;
+        this.next = next;
+    }
+}
+```
+FilmList
+``` java
+package Tugas2;
+
+public class FilmList {
+    Node head;
+    int size;
+
+    FilmList() {
+        head = null;
+        size = 0;
+    }
+    boolean IsEmpty() {
+        return head == null;
+    }
+    void addFirst(Film film) {
+        if (IsEmpty()) {
+            head = new Node(null, film, head);
+        }
+        else {
+            Node newNode = new Node(null, film, head);
+            head.prev = newNode;
+            head = newNode;
+        }
+        size++;
+    }
+    void addLast(Film film) {
+        if (IsEmpty()) {
+            addFirst(film);
+        }
+        else {
+            Node current = head;
+            while (current.next != null) {
+                current = current.next;
+            }
+            Node newNode = new Node(current, film, null);
+            current.next = newNode;
+            size++;
+        }
+    }
+    void add(Film film, int index) throws ExceptionInInitializerError {
+        if (IsEmpty()) {
+            addFirst(film);
+        }
+        else if (index < 0 || index > size) {
+            throw new ExceptionInInitializerError("Nilai Index Diluar Batas");
+        }
+        else {
+            Node current = head;
+            int i = 0;
+            while (i  < index) {
+                current = current.next;
+                i++;
+            }
+            if (current.prev == null) {
+                Node newNode = new Node(null, film, current);
+                current.prev = newNode;
+                head = newNode;
+            }
+            else {
+                Node newNode = new Node(current.prev, film, current);
+                newNode.prev = current.prev;
+                newNode.next = current;
+                current.prev.next = newNode;
+                current.prev = newNode;
+            }
+        }
+        size++;
+    }
+    void removeFirst() throws ExceptionInInitializerError {
+        if (IsEmpty()) {
+            throw new ExceptionInInitializerError("Linked List Masih Kosong, Tidak Dapat Dihapus");
+        }
+        else if (size == 1) {
+            removeLast();
+        }
+        else {
+            head = head.next;
+            head.prev = null;
+            size--;
+        }
+    }
+    void removeLast() throws ExceptionInInitializerError {
+        if (IsEmpty()) {
+            throw new ExceptionInInitializerError("Linked List Masih Kosong, Tidak Dapat Dihapus");
+        }
+        else if (head.next == null) {
+            head = null;
+            size--;
+            return;
+        }
+        Node current = head;
+        while (current.next.next != null) {
+            current = current.next;
+        }
+        current.next = null;
+        size--;
+    }
+    void remove(int index) throws ExceptionInInitializerError {
+        if (IsEmpty() || index >= size) {
+            throw new ExceptionInInitializerError("Nilai Index Di Luar Batas");
+        }
+        else if (index == 0) {
+            removeFirst();
+        }
+        else {
+            Node current = head;
+            int i = 0;
+            while (i < index) {
+                current = current.next;
+                i++;
+            }
+            if (current.next == null) {
+                current.prev.next = null;
+            }
+            else if (current.prev == null) {
+                current = current.next;
+                current.prev = null;
+                head = current;
+            }
+            else {
+                current.prev.next = current.next;
+                current.next.prev = current.prev;
+            }
+            size--;
+        }
+    }
+    void print() {
+        if (IsEmpty()) {
+            System.out.println("Antrian Kosong");
+        }
+        else {
+            Node current = head;
+            while (current != null) {
+                System.out.println("ID     : " + current.data.id);
+                System.out.println("Judul  : " + current.data.judul);
+                System.out.println("Rating : " + current.data.rating);
+                System.out.println();
+                current = current.next;
+            }
+        }
+    }
+    int getNode(int id) {
+        int position = -1;
+        if (IsEmpty()) {
+            System.out.println("Tidak Ada Data");
+        }
+        Node data = head;
+        for (int i = 0; i < size; i++) {
+            if (data.data.id == id) {
+                return position = i + 1;
+            }
+            data = data.next;
+        }
+        return position;
+    }
+    Film search(int id) {
+        Node current = head;
+        while (current != null) {
+            if (current.data.id == id) {
+                return current.data;
+            }
+            current = current.next;
+        }
+        return null;
+    }
+    void sortFilm() {
+        if (head == null || head.next == null) {
+            return;
+        }
+
+        Node current = head;
+        while (current.next != null) {
+            Node maxFilm = current;
+            Node temp = new Node(null, new Film(0, "", 0), null);
+
+            while (maxFilm.next != null) {
+                maxFilm = maxFilm.next;
+                if (maxFilm.data.rating > current.data.rating) {
+                    temp.data = maxFilm.data;
+                    maxFilm.data = current.data;
+                    current.data = temp.data;
+                }
+            }
+            current = current.next;
+        }
+        System.out.println("Daftar Film setelah diurutkan berdasarkan Rating secara descending:");
+        print();
+    }
+}
+```
+Main
+``` java
+package Tugas2;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scd = new Scanner(System.in);
+        Scanner scs = new Scanner(System.in);
+        boolean run = true;
+        FilmList filmList = new FilmList();
+        while (run) {
+            menu();
+            int menu = scd.nextInt();
+            if (menu >= 1 && menu <= 3) {
+                System.out.print("ID     : ");
+                int id = scd.nextInt();
+                System.out.print("Judul  : ");
+                String judul = scs.nextLine();
+                System.out.print("Rating : ");
+                double rating = scd.nextDouble();
+                if (menu == 1) {
+                    filmList.addFirst(new Film(id, judul, rating));
+                }
+                else if (menu == 2) {
+                    filmList.addLast(new Film(id, judul, rating));
+                }
+                else if (menu == 3) {
+                    System.out.print("Data Film Ini Akan Masuk Di Urutan Ke-: ");
+                    int index = scd.nextInt();
+                    filmList.add(new Film(id, judul, rating), index);
+                }
+            }
+            else if (menu == 4) {
+                filmList.removeFirst();
+            }
+            else if (menu == 5) {
+                filmList.removeLast();
+            }
+            else if (menu == 6) {
+                System.out.print("Masukkan Index: ");
+                int index = scd.nextInt();
+                filmList.remove(index);
+            }
+            else if (menu == 7) {
+                filmList.print();
+            }
+            else if (menu == 8) {
+                System.out.print("Masukkan ID Film Yang Dicari: ");
+                int id = scd.nextInt();
+                Film data = filmList.search(id);
+                System.out.println("Data ID Film " + data.id + " Berada Di Node Ke-" + filmList.getNode(id));
+                System.out.println("IDENTITAS:");
+                System.out.println("ID Film     : " + data.id);
+                System.out.println("Judul Film  : " + data.judul);
+                System.out.println("Rating Film : " + data.rating);
+            }
+            else if (menu == 9) {
+                filmList.sortFilm();
+            }
+            else if (menu == 10) {
+                System.out.print("Apakah Anda Yakin Ingin Keluar? (y/n): ");
+                String logout = scs.nextLine();
+                if (logout.toLowerCase().charAt(0) == 'y') run = false;
+            }
+            else {
+                System.out.println("Menu Yang Anda Inputkan Tidak Tersedia");
+            }
+        }
+    }
+    static void menu() {
+        System.out.println("===========================================");
+        System.out.println("DATA FILM LAYAR LEBAR");
+        System.out.println("===========================================");
+        System.out.println("1. Tambah Data Awal");
+        System.out.println("2. Tambah Data Akhir");
+        System.out.println("3. Tambah Data Index Tertentu");
+        System.out.println("4. Hapus Data Pertama");
+        System.out.println("5. Hapus Data Terakhir");
+        System.out.println("6. Hapus Data Tertentu");
+        System.out.println("7. Cetak");
+        System.out.println("8. Cari ID Film");
+        System.out.println("9. Urut Data Rating Film-DESC");
+        System.out.println("10. Keluar");
+        System.out.println("===========================================");
+    }
+}
+```
+
+Output:
+
+<img src="./assets/Output_Tugas2_1.png">
+
+<img src="./assets/Output_Tugas2_2.png">
+
+<img src="./assets/Output_Tugas2_3.png">
+
+<img src="./assets/Output_Tugas2_4.png">
+
+<img src="./assets/Output_Tugas2_5.png">
+
+<img src="./assets/Output_Tugas2_6.png">
+
+<img src="./assets/Output_Tugas2_7.png">
+
+<img src="./assets/Output_Tugas2_8.png">
+
 
