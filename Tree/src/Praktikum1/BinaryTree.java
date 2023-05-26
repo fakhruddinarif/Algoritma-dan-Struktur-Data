@@ -157,4 +157,85 @@ public class BinaryTree {
          }
       }
    }
+
+   Node addRec(Node current, int data) {
+      if (current == null) {
+         return new Node(data);
+      }
+
+      if (data < current.data) {
+         current.left = addRec(current.left, data);
+      } else if (data > current.data) {
+         current.right = addRec(current.right, data);
+      }
+
+      return current;
+   }
+
+   void findMinMax() {
+      if (isEmpty()) {
+         System.out.println("Tree is empty.");
+         return;
+      }
+
+      Node current = root;
+      while (current.left != null) {
+         current = current.left;
+      }
+      int minimum = current.data;
+
+      current = root;
+      while (current.right != null) {
+         current = current.right;
+      }
+      int maximum = current.data;
+
+      System.out.println("Minimum value: " + minimum);
+      System.out.println("Maximum value: " + maximum);
+   }
+
+   void printLeafData() {
+      if (isEmpty()) {
+         System.out.println("Tree is empty.");
+         return;
+      }
+
+      printLeafNodes(root);
+   }
+
+   void printLeafNodes(Node node) {
+      if (node == null) {
+         return;
+      }
+
+      if (node.left == null && node.right == null) {
+         System.out.print(node.data + " ");
+      }
+
+      printLeafNodes(node.left);
+      printLeafNodes(node.right);
+   }
+
+   int totalLeafNodes() {
+      if (isEmpty()) {
+         return 0;
+      }
+
+      return countLeafNodes(root);
+   }
+
+   int countLeafNodes(Node node) {
+      if (node == null) {
+         return 0;
+      }
+
+      if (node.left == null && node.right == null) {
+         return 1;
+      }
+
+      int leftCount = countLeafNodes(node.left);
+      int rightCount = countLeafNodes(node.right);
+
+      return leftCount + rightCount;
+   }
 }

@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd6b447a-1654-4ab5-ad40-dfc1e1b40d89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Tree/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Tree.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/src/Laporan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/src/assets/Output_Tugas1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/src/assets/Output_Tugas2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/src/assets/Output_Tugas3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/src/assets/Output_Tugas4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jobsheet10/Laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jobsheet10/Laporan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jobsheet10/Tugas2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jobsheet10/Tugas2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/src/Laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/src/Laporan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/src/Praktikum1/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/src/Praktikum1/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/src/Praktikum1/BinaryTreeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/src/Praktikum1/BinaryTreeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/src/Praktikum2/BinaryTreeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/src/Praktikum2/BinaryTreeArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/src/Praktikum2/BinaryTreeArrayMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/src/Praktikum2/BinaryTreeArrayMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tree/Laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/Laporan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tree/Praktikum1/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/Praktikum1/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tree/Praktikum1/BinaryTreeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/Praktikum1/BinaryTreeMain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +174,8 @@
       <workItem from="1684993508027" duration="765000" />
       <workItem from="1684994341939" duration="37000" />
       <workItem from="1685019844915" duration="183000" />
-      <workItem from="1685062883537" duration="1155000" />
+      <workItem from="1685062883537" duration="3121000" />
+      <workItem from="1685103636771" duration="3984000" />
     </task>
     <servers />
   </component>
