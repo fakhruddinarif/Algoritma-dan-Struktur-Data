@@ -5,35 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd6b447a-1654-4ab5-ad40-dfc1e1b40d89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Graph/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Graph.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/src/GraphLinkedList/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/src/GraphLinkedList/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/src/GraphLinkedList/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/src/GraphMatrix/GraphArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/src/Laporan.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/src/Tugas/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/src/Tugas/GraphArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/src/Tugas/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/src/Tugas/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/src/TugasGeneric/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/src/TugasGeneric/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/src/TugasGeneric/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/src/assets/Output_Praktikum1_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/src/assets/Output_Praktikum1_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/src/assets/Output_Tugas1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/src/assets/Output_Tugas2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/src/assets/Output_Tugas3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/src/TugasGeneric/GraphArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/Laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/Laporan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/Praktikum1/BinaryTreeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/Praktikum1/BinaryTreeMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/Tugas/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/Tugas/BinaryTreeArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/Tugas/BinaryTreeArrayMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/Tugas/BinaryTreeMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/Tugas/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/assets/Output_Tugas5.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/assets/Output_Tugas5.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,26 +37,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Java/Semester-2/Algoritma-dan-Struktur-Data/Graph/src/Tugas",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/Semester-2/Algoritma-dan-Struktur-Data/Graph/src/Tugas&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java\Semester-2\Algoritma-dan-Struktur-Data\Graph\src\Tugas" />
@@ -207,7 +180,8 @@
       <workItem from="1685485289840" duration="4361000" />
       <workItem from="1685889256673" duration="514000" />
       <workItem from="1685974687421" duration="812000" />
-      <workItem from="1686052446174" duration="6827000" />
+      <workItem from="1686052446174" duration="6948000" />
+      <workItem from="1686093127649" duration="308000" />
     </task>
     <servers />
   </component>
