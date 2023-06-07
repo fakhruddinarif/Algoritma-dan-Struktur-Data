@@ -1,4 +1,4 @@
-package TugasFilm;
+package Tugas;
 
 public class Struk {
     int noTransaksi;

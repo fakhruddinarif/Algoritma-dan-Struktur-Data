@@ -1,4 +1,4 @@
-package TugasFilm;
+package Tugas;
 
 import java.util.Scanner;
 
