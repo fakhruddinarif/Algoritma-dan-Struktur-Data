@@ -1,4 +1,4 @@
-package TugasFilm;
+package Tugas;
 
 public class Queue {
     int max, size, front, rear;
