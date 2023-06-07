@@ -1,6 +1,4 @@
-package Tugas;
-
-import Pratikum1.Pakaian;
+package TugasFilm;
 
 public class List {
     int size;

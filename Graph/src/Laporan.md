@@ -214,12 +214,12 @@ Pertanyaan
 5. Mengapa pada method main harus menggunakan try-catch Exception ? 
 - Agar ketika terjadi error pada program tersebut tidak memberhentikan program secara paksa
 
-## Tugas
+## TugasFilm
 1. Ubahlah lintasan pada praktikum 2.1 menjadi inputan! 
 
 Code:
 ``` java
-package Tugas;
+package TugasFilm;
 
 import java.util.Scanner;
 
@@ -330,7 +330,7 @@ Output:
 
 Code:
 ``` java
-package Tugas;
+package TugasFilm;
 
 import java.util.Scanner;
 

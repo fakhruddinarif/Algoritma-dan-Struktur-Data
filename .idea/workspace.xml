@@ -5,8 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd6b447a-1654-4ab5-ad40-dfc1e1b40d89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Graph/src/TugasGeneric/GraphArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/Collection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/ContohList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/Laporan.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/ListMahasiswa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/LoopCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/Mahasiswa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/TugasFilm/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/TugasFilm/MainFilm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/assets/Output_Percobaan1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/assets/Output_Percobaan1_Pertanyaan1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/assets/Output_Percobaan1_Pertanyaan5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/assets/Output_Percobaan2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/assets/Output_Percobaan2_Pertanyaan4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/assets/Output_Percobaan2_Pertanyaan5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/assets/Output_Percobaan3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/assets/Output_Tugas_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/assets/Output_Tugas_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/assets/Output_Tugas_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/assets/Output_Tugas_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/assets/Output_Tugas_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/assets/Output_Tugas_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/src/Laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/src/Laporan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/src/Tugas/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/src/TugasFilm/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/src/Tugas/GraphArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/src/TugasFilm/GraphArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/src/Tugas/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/src/TugasFilm/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/src/Tugas/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/src/TugasFilm/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jobsheet10/src/Laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/Jobsheet10/src/Laporan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jobsheet8/src/Laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/Jobsheet8/src/Laporan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jobsheet8/src/Tugas/Mahasiswa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Jobsheet8/src/TugasFilm/Mahasiswa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jobsheet8/src/Tugas/MahasiswaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Jobsheet8/src/TugasFilm/MahasiswaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jobsheet8/src/Tugas/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Jobsheet8/src/TugasFilm/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jobsheet9/src/Laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/Jobsheet9/src/Laporan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/src/Laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/src/Laporan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/src/Tugas/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/src/TugasFilm/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/src/Tugas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/src/TugasFilm/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/src/Tugas/Struk.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/src/TugasFilm/Struk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/src/Laporan.md" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/src/Laporan.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +219,8 @@
       <workItem from="1685889256673" duration="514000" />
       <workItem from="1685974687421" duration="812000" />
       <workItem from="1686052446174" duration="6948000" />
-      <workItem from="1686093127649" duration="308000" />
+      <workItem from="1686093127649" duration="1040000" />
+      <workItem from="1686102675397" duration="10244000" />
     </task>
     <servers />
   </component>

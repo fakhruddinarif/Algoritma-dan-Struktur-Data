@@ -348,7 +348,7 @@ c = Q.charAt(i);
 4. Pada soal nomor 3, mengapa tanda kurung tidak ditampilkan pada hasil konversi? Jelaskan! 
    - Dikarenakan pada saat c == ')' terjadi perulangan pop() dengan memindahkan data ke variabel P hingga variabel c == '(' setelah itu terjadi pop() kembali tetapi data tidak dimasukkan ke variabel P
 
-## Tugas
+## TugasFilm
 1. Perhatikan dan gunakan kembali kode program pada Praktikum 1. Tambahkan method getMin pada class Stack yang digunakan untuk mencari dan menampilkan data pakaian dengan harga terendah dari semua data pakaian yang tersimpan di dalam stack!
 
 Code:
@@ -438,7 +438,7 @@ Code:
 
 Struk
 ``` java
-package Tugas;
+package TugasFilm;
 
 public class Struk {
     int noTransaksi;
@@ -463,7 +463,7 @@ public class Struk {
 ```
 List
 ``` java
-package Tugas;
+package TugasFilm;
 
 import Pratikum1.Pakaian;
 
@@ -529,7 +529,7 @@ public class List {
 ```
 Main
 ``` java
-package Tugas;
+package TugasFilm;
 
 import java.util.Scanner;
 

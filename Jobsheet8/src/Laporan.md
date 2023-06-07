@@ -506,7 +506,7 @@ public class QueueMain {
 
 <img src="./assets/Output_Pertanyaan4_2_Pratikum2.png">
 
-## Tugas
+## TugasFilm
 1. Tambahkan dua method berikut ke dalam class Queue pada Praktikum1:
    
     a. Method peekPosition(data: int) : void
@@ -540,7 +540,7 @@ Code:
 
 Mahasiswa
 ``` java
-package Tugas;
+package TugasFilm;
 
 public class Mahasiswa {
     String nim, nama;
@@ -557,7 +557,7 @@ public class Mahasiswa {
 ```
 Queue
 ``` java
-package Tugas;
+package TugasFilm;
 
 public class Queue {
     int max, size, front, rear;
@@ -713,7 +713,7 @@ public class Queue {
 ```
 MahasiswaMain
 ``` java
-package Tugas;
+package TugasFilm;
 
 import java.util.Scanner;
 
