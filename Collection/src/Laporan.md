@@ -275,6 +275,37 @@ Output
 <img src="./assets/Output_Percobaan3_Pertanyaan2.png">
 
 3. Tambahkan fungsi sorting baik secara ascending ataupun descending pada class tersebut!
+``` java
+    public void sortAscending() {
+        mahasiswas.sort(Comparator.comparing(mhs -> mhs.nim));
+    }
+
+    public void sortDescending() {
+        mahasiswas.sort((mhs1, mhs2) -> mhs2.nim.compareTo(mhs1.nim));
+    }
+    public static void main(String[] args) {
+        ListMahasiswa lm = new ListMahasiswa();
+        Mahasiswa m0 = new Mahasiswa("201234", "Noureen", "021xx1");
+        Mahasiswa m1 = new Mahasiswa("201235", "Akhleema", "021xx2");
+        Mahasiswa m2 = new Mahasiswa("201236", "Shannum", "021xx3");
+
+        lm.tambah(m0, m1, m2);
+        lm.tampil();
+        lm.update(lm.binarySearch("201235"), new Mahasiswa("201235", "Akhleema Lela", "021xx2"));
+        System.out.println();
+        lm.tampil();
+        System.out.println("\nAscending");
+        lm.sortAscending();
+        lm.tampil();
+        System.out.println("\nDescending");
+        lm.sortDescending();
+        lm.tampil();
+    }
+```
+
+Output
+
+<img src="./assets/Output_Percobaan3_Pertanyaan3.png">
 
 ## Tugas
 Code

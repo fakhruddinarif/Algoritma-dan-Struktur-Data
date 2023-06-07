@@ -57,7 +57,9 @@ public class ListMahasiswa {
         lm.tampil();
         System.out.println("\nAscending");
         lm.sortAscending();
+        lm.tampil();
         System.out.println("\nDescending");
         lm.sortDescending();
+        lm.tampil();
     }
 }
