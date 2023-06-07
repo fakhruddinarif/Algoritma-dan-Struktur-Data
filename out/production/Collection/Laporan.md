@@ -174,6 +174,12 @@ fruits.set(4, "Strawberry");
 <img src="./assets/Output_Percobaan2_Pertanyaan5.png">
 
 6. Tambahkan 3 buah seperti “Mango”,”guava”, dan “avocado” kemudian dilakukan sorting!
+``` java
+fruits.push("Mango");
+fruits.push("Guava");
+fruits.push("Avocado");
+fruits.sort(null);
+```
 
 
 ### Percobaan 3
@@ -253,7 +259,21 @@ Output
 
 Pertanyaan
 1. Pada fungsi tambah() yang menggunakan unlimited argument itu menggunakan konsep apa? Dan kelebihannya apa?
+- Itu menggunakan konsep varargs yang kelebihannya digunakan untuk menginputkan data pada method yang belum diketahui banyak datanya
 2. Pada fungsi linearSearch() di atas, silakan diganti dengan fungsi binarySearch() dari collection!
+``` java
+    int binarySearch(String nim) {
+        List<String> nimList = new ArrayList<>();
+        for (Mahasiswa mhs : mahasiswas) {
+            nimList.add(mhs.nim);
+        }
+        return Collections.binarySearch(nimList, nim);
+    }
+```
+Output
+
+<img src="./assets/Output_Percobaan3_Pertanyaan2.png">
+
 3. Tambahkan fungsi sorting baik secara ascending ataupun descending pada class tersebut!
 
 ## Tugas
