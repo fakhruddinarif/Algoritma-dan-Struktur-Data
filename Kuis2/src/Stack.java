@@ -26,12 +26,14 @@ public class Stack {
 
         public void printStack() {
             if (isEmpty()) {
-                System.out.println("Stack is empty.");
+                System.out.println("Tumpukan kosong.");
                 return;
             }
 
+            System.out.print("Tumpukan Kayu: ");
             for (int i = top; i >= 0; i--) {
-                System.out.println("Wood " + data[i].truckNumber);
+                System.out.print(data[i].truckNumber + "\t");
             }
+            System.out.println();
         }
 }

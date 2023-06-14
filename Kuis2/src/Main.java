@@ -1,13 +1,18 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] arg) {
         Queue truckQueue = new Queue();
-        Stack truckStack = new Stack(10);
+        Stack truckStack = new Stack(5);
 
         // Menambahkan truk ke antrian
         for (int i = 1; i <= 5; i++) {
             Truck truck = new Truck(i);
             truckQueue.enqueue(truck);
         }
+
+        truckQueue.printQueue();
+        System.out.println("Sisa antrian: " + truckQueue.size());
+        truckStack.printStack();
+        System.out.println();
 
 
         // Menumpuk kayu dan menghapus truk yang selesai
@@ -20,6 +25,7 @@ public class Main {
 
             truckQueue.printQueue();
             System.out.println("Sisa antrian: " + truckQueue.size());
+            truckStack.printStack();
             System.out.println();
 
             // Jika truk belum selesai, tambahkan kembali ke antrian
@@ -27,7 +33,5 @@ public class Main {
                 truckQueue.enqueue(currentTruck);
             }
         }
-        System.out.println("Wood Stack:");
-        truckStack.printStack();
     }
 }
