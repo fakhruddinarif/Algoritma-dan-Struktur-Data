@@ -579,7 +579,7 @@ Pertanyaan
 - a. Gunakan size sebagai syarat, jika size list = 0 maka dianggap belum list masih kosong
 - b. Guanakan head sebagai titik, jika head = null maka dianggap belum ada data di list
 
-## Tugas
+## TugasFilm
 1. Buat program antrian vaksinasi menggunakan queue berbasis double linked list
 Code: 
 Pasien
